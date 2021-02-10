@@ -1,0 +1,11 @@
+-i /Users/christianaguilarfuster/Documents/VNE/SolicitudesAnteriores/50 -r 1000 -lt 500 -a 0 -o /Users/christianaguilarfuster/Documents/VNE/Resultados/RedesReales/Erdos-SalidaAlg1-50-500 -sd 1000
+
+
+-i /Users/christianaguilarfuster/Documents/VNE/SolicitudesWaxman/50 -r 1000 -lt 500 -a 0 -o /Users/christianaguilarfuster/Documents/VNE/Resultados/RedesReales/Waxman-SalidaAlg1-50-500 -sd 1000
+
+
+-i /Users/christianaguilarfuster/Documents/VNE/SolicitudesBarabasi/50 -r 1000 -lt 500 -a 0 -o /Users/christianaguilarfuster/Documents/VNE/Resultados/RedesReales/Barabasi-SalidaAlg1-50-500 -sd 1000
+
+
+o waxman
+1 barabasi

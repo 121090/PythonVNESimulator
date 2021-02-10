@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_y" for="node" attr.name="y" attr.type="string"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="string"/>
+  <key id="v_CPU" for="node" attr.name="CPU" attr.type="double"/>
+  <key id="e_bandwidth" for="edge" attr.name="bandwidth" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_y">313</data>
+      <data key="v_x">321</data>
+      <data key="v_CPU">15</data>
+    </node>
+    <node id="n1">
+      <data key="v_y">130</data>
+      <data key="v_x">64</data>
+      <data key="v_CPU">16</data>
+    </node>
+    <node id="n2">
+      <data key="v_y">220</data>
+      <data key="v_x">364</data>
+      <data key="v_CPU">19</data>
+    </node>
+    <node id="n3">
+      <data key="v_y">208</data>
+      <data key="v_x">154</data>
+      <data key="v_CPU">12</data>
+    </node>
+    <node id="n4">
+      <data key="v_y">125</data>
+      <data key="v_x">204</data>
+      <data key="v_CPU">7</data>
+    </node>
+    <node id="n5">
+      <data key="v_y">457</data>
+      <data key="v_x">264</data>
+      <data key="v_CPU">7</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_bandwidth">24</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_bandwidth">31</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_bandwidth">43</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_bandwidth">28</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_bandwidth">41</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_bandwidth">23</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_bandwidth">18</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_bandwidth">28</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_bandwidth">37</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_y" for="node" attr.name="y" attr.type="string"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="string"/>
+  <key id="v_CPU" for="node" attr.name="CPU" attr.type="double"/>
+  <key id="e_bandwidth" for="edge" attr.name="bandwidth" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_y">5</data>
+      <data key="v_x">0</data>
+      <data key="v_CPU">20</data>
+    </node>
+    <node id="n1">
+      <data key="v_y">14</data>
+      <data key="v_x">1</data>
+      <data key="v_CPU">1</data>
+    </node>
+    <node id="n2">
+      <data key="v_y">11</data>
+      <data key="v_x">2</data>
+      <data key="v_CPU">9</data>
+    </node>
+    <node id="n3">
+      <data key="v_y">20</data>
+      <data key="v_x">3</data>
+      <data key="v_CPU">11</data>
+    </node>
+    <node id="n4">
+      <data key="v_y">9</data>
+      <data key="v_x">4</data>
+      <data key="v_CPU">10</data>
+    </node>
+    <node id="n5">
+      <data key="v_y">19</data>
+      <data key="v_x">5</data>
+      <data key="v_CPU">14</data>
+    </node>
+    <edge source="n0" target="n5">
+      <data key="e_bandwidth">10</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_bandwidth">10</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_bandwidth">24</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_bandwidth">7</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_bandwidth">22</data>
+    </edge>
+  </graph>
+</graphml>
